@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience | Virupaksha Vegi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Enhanced project links */
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .project-card {
+        background: rgba(7, 123, 50, 0.05);
+        border: 1px solid rgba(7, 123, 50, 0.2);
+        border-radius: 8px;
+        padding: 20px;
+        transition: all 0.3s ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(7, 123, 50, 0.1);
+      }
+
+      .project-links {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .project-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        color: #077b32;
+        background: rgba(7, 123, 50, 0.1);
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        transition: all 0.3s ease;
+      }
+
+      .project-link:hover {
+        background: rgba(7, 123, 50, 0.3);
+        color: white;
+      }
+
+      .section-title {
+        margin: 40px 0 20px;
+        color: #077b32;
+        font-size: 1.3rem;
+        border-bottom: 2px solid rgba(7, 123, 50, 0.3);
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Virupaksha<span>Vegi</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="about.html">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="experience.html">Experience</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="experience">
+      <div class="experience-container">
+        <h1 class="page-title">Work <span>Experience</span></h1>
+
+        <div class="timeline">
+          <!-- Bitcoin.com Experience -->
+          <div
+            class="timeline-item"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <div class="timeline-date">May 2024 - Present</div>
+            <div class="timeline-content">
+              <h3>
+                Full Stack Developer -
+                <a
+                  href="https://www.bitcoin.com/"
+                  target="_blank"
+                  class="company-link"
+                >
+                  Bitcoin.com
+                </a>
+              </h3>
+
+              <div class="section-title">Key Projects:</div>
+
+              <div class="project-grid">
+                <!-- BitSpin Casino -->
+                <div class="project-card">
+                  <h4>BitSpinCasino</h4>
+                  <p>Architected and launched from scratch</p>
+                  <div class="project-links">
+                    <a
+                      href="https://bitspincasino.com/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-external-link-alt"></i> Live Site
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Bitcoin.com Main Pages -->
+                <div class="project-card">
+                  <h4>Bitcoin.com Core Pages</h4>
+                  <p>Redesigned and developed multiple pages and directories</p>
+                  <div class="project-links">
+                    <a
+                      href="https://www.bitcoin.com/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-home"></i> Homepage
+                    </a>
+                    <a
+                      href="https://buy.bitcoin.com/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Buy Portal
+                    </a>
+                    <a
+                      href="https://sell.bitcoin.com/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-money-bill-wave"></i> Sell Portal
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/newsletters/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-envelope"></i> Newsletters
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/gambling/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-coins"></i> Gambling Portal
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/research/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-search"></i> Research
+                    </a>
+                  </div>
+                </div>
+
+                <!-- News and Media -->
+                <div class="project-card">
+                  <h4>Games Website</h4>
+                  <p>Developed content management systems</p>
+                  <div class="project-links">
+                    <a
+                      href="https://games.bitcoin.com/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-gamepad"></i> Games Portal
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-title">Additional Contributions:</div>
+              <ul>
+                <li>
+                  Developed directory sections:
+                  <div class="project-links" style="margin: 10px 0">
+                    <a
+                      href="https://www.bitcoin.com/directory/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-list"></i> Main Directory
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/directory/gambling"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-dice"></i> Gambling Directory
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/directory/exchanges"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-exchange-alt"></i> Exchanges
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  Built specialized sections:
+                  <div class="project-links" style="margin: 10px 0">
+                    <a
+                      href="https://www.bitcoin.com/verse-referrals/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-user-friends"></i> Verse Referrals
+                    </a>
+                    <a
+                      href="https://www.bitcoin.com/cert/"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-user-friends"></i>Social Media
+                      Verification Page
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  Engineered dynamic geo-based widgets for Buy/Sell portals
+                </li>
+                <li>
+                  Created Python automation scripts for multilingual content
+                </li>
+                <li>Collaborated with Design, DevOps, and Content teams</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Intellicuria Experience -->
+          <div
+            class="timeline-item"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="timeline-date">Dec 2023 - Feb 2024</div>
+            <div class="timeline-content">
+              <h3>
+                Frontend Developer -
+                <a
+                  href="https://intellicuria.com/"
+                  target="_blank"
+                  class="company-link"
+                >
+                  Intellicuria
+                </a>
+              </h3>
+              <ul>
+                <li>
+                  Enhanced and optimized frontend webpages using React and
+                  Typescript
+                </li>
+                <li>Built and integrated backend APIs using Express.js</li>
+                <li>Improved UI/UX and responsiveness across platform</li>
+                <li>Worked on core platform features and components</li>
+              </ul>
+              <div class="project-links" style="margin-top: 15px">
+                <a
+                  href="https://intellicuria.com/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Visit Intellicuria
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

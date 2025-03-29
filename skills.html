@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills | Virupaksha Vegi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Virupaksha<span>Vegi</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="about.html">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="experience.html">Experience</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="skills">
+      <div class="skills-container">
+        <h1 class="page-title">My <span>Skills</span></h1>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div
+            class="skill-category"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <h2><i class="fas fa-code"></i> Programming Languages</h2>
+            <div class="skill-items">
+              <div class="skill-item">Python</div>
+              <div class="skill-item">JavaScript</div>
+              <div class="skill-item">Java</div>
+              <div class="skill-item">C++</div>
+            </div>
+          </div>
+
+          <!-- Frontend Development -->
+          <div
+            class="skill-category"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            <h2><i class="fas fa-laptop-code"></i> Frontend Development</h2>
+            <div class="skill-items">
+              <div class="skill-item">ReactJS</div>
+              <div class="skill-item">Next.js</div>
+              <div class="skill-item">TypeScript</div>
+              <div class="skill-item">Redux Toolkit</div>
+              <div class="skill-item">HTML/CSS</div>
+              <div class="skill-item">Tailwind CSS</div>
+              <div class="skill-item">SCSS</div>
+              <div class="skill-item">Material UI</div>
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div
+            class="skill-category"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <h2><i class="fas fa-server"></i> Backend Development</h2>
+            <div class="skill-items">
+              <div class="skill-item">Node.js</div>
+              <div class="skill-item">Express.js</div>
+              <div class="skill-item">Fast API</div>
+              <div class="skill-item">Spring Boot</div>
+              <div class="skill-item">Maven</div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div
+            class="skill-category"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <h2><i class="fas fa-database"></i> Databases</h2>
+            <div class="skill-items">
+              <div class="skill-item">SQL/MySQL</div>
+              <div class="skill-item">MongoDB</div>
+            </div>
+          </div>
+
+          <!-- Machine Learning -->
+          <div
+            class="skill-category"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
+            <h2><i class="fas fa-brain"></i> Machine Learning</h2>
+            <div class="skill-items">
+              <div class="skill-item">TensorFlow</div>
+              <div class="skill-item">Keras</div>
+              <div class="skill-item">NumPy</div>
+              <div class="skill-item">Pandas</div>
+              <div class="skill-item">Scikit-learn</div>
+              <div class="skill-item">Matplotlib</div>
+              <div class="skill-item">Clustering</div>
+              <div class="skill-item">Classification</div>
+              <div class="skill-item">Regression</div>
+              <div class="skill-item">Deep Learning</div>
+              <div class="skill-item">MLOps</div>
+              <div class="skill-item">Lang-chain</div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="page-title projects-title">
+          Personal <span>Projects</span>
+        </h1>
+
+        <div class="projects-grid">
+          <!-- Gym Workout Tracker -->
+          <div class="project-card" data-aos="zoom-in" data-aos-duration="800">
+            <h3>Gym Workout Tracker Website</h3>
+            <div class="project-skills">
+              <span>ReactJS</span>
+              <span>Express.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>CSS</span>
+            </div>
+            <ul>
+              <li>Effortlessly record, edit, and remove workout sessions</li>
+              <li>JWT token authentication for secure user access</li>
+              <li>Personalized fitness journey tracking</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Workouts-Website"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Potato Disease Prediction -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <h3>Potato Disease Prediction Website</h3>
+            <div class="project-skills">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Keras</span>
+              <span>ReactJS</span>
+              <span>Fast API</span>
+            </div>
+            <ul>
+              <li>Implemented disease prediction using ML models</li>
+              <li>Fast API backend for real-time image classification</li>
+              <li>React frontend for user-friendly interface</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Potato_disease_prediction"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- YouTube Clone -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
+            <h3>React YouTube Clone</h3>
+            <div class="project-skills">
+              <span>ReactJS</span>
+              <span>Material UI</span>
+              <span>Tailwind CSS</span>
+              <span>Rapid API</span>
+            </div>
+            <ul>
+              <li>YouTube clone with ReactJS and Material UI</li>
+              <li>Intuitive sidebar navigation for categories</li>
+              <li>Integrated search functionality</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/ReactJs-Youtube-Clone"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a
+                href="https://genuine-unicorn-8c8ada.netlify.app/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- Career Guidance System -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="600"
+          >
+            <h3>Online Career Guidance System</h3>
+            <div class="project-skills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>Firebase</span>
+            </div>
+            <ul>
+              <li>Career guidance with academic stream information</li>
+              <li>Detailed course information and top colleges</li>
+              <li>Feedback form for user suggestions</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Online-Career-Guidance-System"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Sign Language Detection -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="800"
+          >
+            <h3>Sign Language Detection Model</h3>
+            <div class="project-skills">
+              <span>Python</span>
+              <span>MediaPipe</span>
+              <span>OpenCV</span>
+              <span>TensorFlow</span>
+            </div>
+            <ul>
+              <li>Created dataset with 300 sign language images</li>
+              <li>Extracted features with MediaPipe holistic</li>
+              <li>LSTM model for real-time detection</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Sign-Language-Detection-Model"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Breast Cancer Predictor -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="1000"
+          >
+            <h3>Breast Cancer Predictor App</h3>
+            <div class="project-skills">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>Scikit-learn</span>
+              <span>Plotly</span>
+            </div>
+            <ul>
+              <li>ML model trained on breast cancer dataset</li>
+              <li>Interactive input sliders and visualization</li>
+              <li>Probability output display</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Breast-Cancer-Predictor-App"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a
+                href="https://breast-cancer-predictor-app-wndubvasb9cifq3vtoczgr.streamlit.app/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- Facial Recognition -->
+          <div
+            class="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="1200"
+          >
+            <h3>Facial Recognition Attendance System</h3>
+            <div class="project-skills">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>OpenCV</span>
+              <span>Pillow</span>
+            </div>
+            <ul>
+              <li>Captures and stores user photos with names</li>
+              <li>Recognizes individuals during logins</li>
+              <li>Attendance logged with date and time</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/Virupakshavegi/Facial_recognition_project"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
